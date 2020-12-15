@@ -40,7 +40,7 @@ public interface IDirectory {
      */
     @GET
     @Path("{directory}")
-    @Produces("text/html")
+    @Produces("application/json")
     Map<String, Type> getContent(@PathParam("directory") String dirName);
 
     /**
@@ -59,6 +59,6 @@ public interface IDirectory {
      */
     @GET
     @Path("find/{directory}")
-    @Produces(MediaType.TEXT_HTML)
+    @Produces(MediaType.APPLICATION_JSON)
     Map<String, Type> findFile(@PathParam("directory") String dirName, @QueryParam("file") String fileName);
 }

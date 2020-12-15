@@ -2,18 +2,4 @@
 <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
         "http://java.sun.com/j2ee/dtds/web-app__2__3.dtd">
 <web-app>
-<!--    <servlet>-->
-<!--        <servlet-name>jerseyServlet</servlet-name>-->
-<!--        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>-->
-<!--        <init-param>-->
-<!--            <param-name>com.sun.jersey.config.property.packages</param-name>-->
-<!--            <param-value>org.o7planning.restfulcrud</param-value>-->
-<!--        </init-param>-->
-<!--        <load-on-startup>1</load-on-startup>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>jerseyServlet</servlet-name>-->
-<!--        <url-pattern>/rest/*</url-pattern>-->
-<!--    </servlet-mapping>-->
-
 </web-app>
